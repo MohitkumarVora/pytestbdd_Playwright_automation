@@ -11,3 +11,4 @@ Feature: Check homepage navigation and check top navigation menus
   Scenario: Verify that the Home page loads and shows header
     Then the page title should be Automation Testing Practice
     And the main header Automation Testing Practice should be visible
+    And the sub header For Selenium, Cypress & Playwright should be visible
